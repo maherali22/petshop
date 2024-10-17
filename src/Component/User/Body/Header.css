@@ -1,0 +1,55 @@
+.container {
+  padding-top: 70px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('https://s1.1zoom.me/b5254/162/Dogs_Cats_Rabbits_Parrots_Frogs_White_background_549733_2560x1440.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+  padding-left: 0; 
+}
+
+.text-section {
+  flex: 1;
+  margin: 0;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.bestsellers {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #170000;
+}
+
+.title {
+  font-size: 48px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #ffffff; /* Darker gray title */
+}
+
+.shop-now {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #212020;
+  border-radius: 18px;
+  border:none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.shop-now:hover {
+  background-color: #000000;
+  color: white;
+}

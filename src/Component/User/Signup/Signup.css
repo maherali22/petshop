@@ -1,0 +1,142 @@
+/* Container for Signup Form */
+.sign-up {
+  padding: 50px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for depth */
+  width: 100%;
+  max-width: 450px; /* Ensures responsiveness */
+  text-align: center;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 100px;
+}
+
+.sign-up:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Adds hover effect */
+}
+
+/* Heading Styling */
+.sign-up h1 {
+  margin-bottom: 20px;
+  font-size: 28px; /* Increased for better readability */
+  color: #333;
+  font-weight: bold;
+}
+
+/* Paragraph for Instructions */
+.sign-up p {
+  margin-bottom: 20px;
+  color: #555; /* Darker text for contrast */
+  font-size: 16px;
+}
+
+/* Input Fields and Select Box Styling */
+.sign-up input,
+.sign-up select {
+  width: 100%;
+  padding: 12px; /* Increased padding for better touch interaction */
+  margin-bottom: 20px; /* More space between fields */
+  border: 1px solid #ccc; /* Softer border */
+  border-radius: 6px; /* More rounded corners */
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus Effect for Inputs and Selects */
+.sign-up input:focus,
+.sign-up select:focus {
+  border-color: #007bff; /* Highlight border with a blue color */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Subtle shadow on focus */
+}
+
+/* Submit Button Styling */
+.sign-up button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Blue for a more inviting look */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Remove Outline on Focus */
+.sign-up button:focus {
+  outline: none;
+}
+
+/* Link Button for Sign In */
+.sign-up p button {
+  background: none;
+  border: none;
+  color: #007bff; /* Blue color for link */
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* Hover Effect for Sign In Link */
+.sign-up p button:hover {
+  color: #0056b3;
+}
+
+/* Error Message Styling */
+.error-text {
+  color: #e74c3c; /* Softer red for error text */
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sign-up {
+    padding: 30px;
+    margin-top: 60px;
+    width: 90%;
+  }
+
+  .sign-up h1 {
+    font-size: 24px;
+  }
+
+  .sign-up button {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sign-up {
+    padding: 20px;
+    margin-top: 50px;
+    width: 95%;
+  }
+
+  .sign-up h1 {
+    font-size: 22px;
+  }
+
+  .sign-up input,
+  .sign-up select {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .sign-up button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
